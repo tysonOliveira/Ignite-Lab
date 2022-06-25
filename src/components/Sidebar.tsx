@@ -17,7 +17,7 @@ export function Sidebar() {
             <Lesson
               key={lesson.id}
               title={lesson.title}
-              slug={lesson.slug}
+              slug={lesson.slug!}  /*Com o '!' estamos dizendo pro código que carantimos que slug não vira como undefined */
               availableAt={new Date(lesson.availableAt)}
               type={lesson.lessonType}
             />
