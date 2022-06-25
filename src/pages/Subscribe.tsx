@@ -22,7 +22,7 @@ export function Subscribe() {
       }
     })
 
-    navigate('/event');
+    navigate('/event/lesson/abertura-do-evento-ignite-lab');
   }
 
   return (
