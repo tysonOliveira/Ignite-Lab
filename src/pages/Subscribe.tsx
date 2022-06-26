@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
+import { LogoRocketseat } from "../components/LogoRocketseat";
 import { useCreateSubcriberMutation } from "../graphql/generated";
 
 
@@ -24,11 +25,12 @@ export function Subscribe() {
 
     navigate('/event/lesson/abertura-do-evento-ignite-lab');
   }
-
+  //bg-blur
   return (
-    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-      <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-        <div className="max-w-[640px]">
+    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center ">
+      
+      <div className="w-full tablet:max-w-[1100px] block tablet:flex items-center justify-between mt-20 mx-auto">
+        <div className="px-10 text-center tablet:text-left tablet:block flex flex-col items-center tablet:max-w-[640px]">
           <Logo />
 
           <h1 className="mt-8 text-[2.5rem] leading-tight">
@@ -66,8 +68,17 @@ export function Subscribe() {
           </form>
         </div>
       </div>
+      
+      <div className="bg-code  bg-no-repeat bg-contain md:bg-center bg-top w-[98%] h-48 md:h-[590px]"></div>
 
-      <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+      <div className="gap-2 bg-black w-full h-36 md:h-20 flex flex-col items-center justify-center md:flex-row md:justify-between px-5 text-gray-300">
+        <LogoRocketseat />
+        <span className="">Rocketseat - Todos os direitos reservados </span> 
+        <p>
+          Políticas de privacidade
+        </p> 
+      </div>
+      {/*<img src="/src/assets/code-mockup.png" className="mt-10" alt="" />*/}
     </div>
   )
 }

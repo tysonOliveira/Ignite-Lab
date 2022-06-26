@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-reac
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from "../graphql/generated";
+import { LogoRocketseat } from "./LogoRocketseat";
 
 interface VideoProps {
   lessonSlug: string;
@@ -104,6 +105,14 @@ export function Video(props: VideoProps) {
           
         </div>
       </div>
+
+      <div className="gap-2 bg-black w-full h-36 md:h-20 flex flex-col items-center justify-center md:flex-row md:justify-between px-5 text-gray-300">
+        <LogoRocketseat />
+        <span className="">Rocketseat - Todos os direitos reservados </span> 
+        <p>
+          Políticas de privacidade
+        </p> 
+      </div>      
     </div>
   )
 }

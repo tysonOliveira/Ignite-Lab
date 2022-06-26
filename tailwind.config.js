@@ -5,8 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'tablet': '1120px',
+        'smart': '700px'
+      },
       backgroundImage: {
         blur: 'url(/src/assets/blur-background.png)',
+        code: 'url(/src/assets/code-mockup.png)',
       },
       fontFamily: {
         sans: 'Robot, sans-serif',
