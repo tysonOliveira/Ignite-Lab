@@ -29,8 +29,8 @@ export function Subscribe() {
   return (
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center ">
       
-      <div className="w-full tablet:max-w-[1100px] block tablet:flex items-center justify-between mt-20 mx-auto">
-        <div className="px-10 text-center tablet:text-left tablet:block flex flex-col items-center tablet:max-w-[640px]">
+      <div className="w-full lg:max-w-[1100px] block lg:flex items-center justify-between mt-20 mx-auto">
+        <div className="pr-1 text-center lg:text-left lg:block flex flex-col items-center lg:max-w-[640px]">
           <Logo />
 
           <h1 className="mt-8 text-[2.5rem] leading-tight">
@@ -71,6 +71,7 @@ export function Subscribe() {
       
       <div className="bg-code  bg-no-repeat bg-contain md:bg-center bg-top w-[98%] h-48 md:h-[590px]"></div>
 
+      
       <div className="gap-2 bg-black w-full h-36 md:h-20 flex flex-col items-center justify-center md:flex-row md:justify-between px-5 text-gray-300">
         <LogoRocketseat />
         <span className="">Rocketseat - Todos os direitos reservados </span> 
@@ -78,6 +79,7 @@ export function Subscribe() {
           Políticas de privacidade
         </p> 
       </div>
+      
       {/*<img src="/src/assets/code-mockup.png" className="mt-10" alt="" />*/}
     </div>
   )

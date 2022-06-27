@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
@@ -6,12 +7,25 @@ import { Video } from "../components/Video";
 export function Event() {
   const { slug } = useParams<{slug: string}>()
   
+  const [sidebar, setSidebar] = useState(true);
+
+  function handleShowSidebar() {
+    setSidebar(!sidebar);
+    console.log(sidebar);
+  }
+
+  var windowWidth = window.innerWidth;
+  console.log(windowWidth)
+
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
+      <Header handleShowSidebar={handleShowSidebar} />
+        
       <main className="flex flex-1">
         { slug ? <Video lessonSlug={slug} /> : <div className="flex-1" /> }
-        <Sidebar />
+
+        
+        { sidebar &&  <Sidebar />}
       </main>
     </div>
   )
