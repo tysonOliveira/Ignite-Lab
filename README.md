@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto é uma plataforma de conteúdos em vídeo com uma home page de cadastro, insira alguma informação na página de cadastro para poder seguir para a página onde estão as aulas. Você pode acessar o site por <a href="https://ignite-lab-react-ijknrjvae-tysonoliveira.vercel.app/" target="_blanck">este link</a>.
+O projeto é uma plataforma de conteúdos em vídeo com uma home page de cadastro, insira alguma informação na página de cadastro para poder seguir para a página onde estão as aulas. Você pode acessar o site por <a href="https://ignite-lab-react-ijknrjvae-tysonoliveira.vercel.app/" target="_blank">este link</a>.
 
 <p align="center">
   <img src=".github/video.gif" alt="GIF" width="700px" />
