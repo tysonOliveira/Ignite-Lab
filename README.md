@@ -40,8 +40,6 @@ O projeto é uma plataforma de conteúdos em vídeo com uma home page de cadastr
   <img src=".github/video.gif" alt="GIF" width="700px" />
 </p>
 
----
-
 ## 🔖 Layout 
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1120711251998877938). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
