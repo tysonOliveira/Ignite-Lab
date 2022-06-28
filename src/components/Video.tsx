@@ -106,13 +106,17 @@ export function Video(props: VideoProps) {
         </div>
       </div>
 
-      <div className="gap-2 bg-black w-full h-36 md:h-20 flex flex-col items-center justify-center md:flex-row md:justify-between px-5 text-gray-300">
+      <div className=" bg-black w-full h-20 flex items-center justify-between px-5 text-gray-300 md:flex-col md:h-32 md:justify-around md:text-center">
+        
+        <div className="flex items-center gap-6 md:flex-col md:gap-4">
+
         <LogoRocketseat />
         <span className="">Rocketseat - Todos os direitos reservados </span> 
+        </div>
         <p>
           Políticas de privacidade
         </p> 
-      </div>      
+      </div>     
     </div>
   )
 }

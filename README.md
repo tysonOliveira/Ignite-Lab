@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="DoctorCare" src=".github/preview.jpg" width="100%">
+  <img alt="DoctorCare" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -34,10 +34,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto é uma plataforma de conteúdos em vídeo com uma home page de cadastro exigindo que o usuário insira alguma informação na página de cadastro para poder seguir para a página onde estão as aulas. 
+O projeto é uma plataforma de conteúdos em vídeo com uma home page de cadastro exigindo que o usuário insira alguma informação na página de cadastro para poder seguir para a página onde estão as aulas. Você pode acessar o site por [este link](https://ignite-lab-react-ijknrjvae-tysonoliveira.vercel.app/).
 
-## 🔖 Layout
+<p align="center">
+  <img src=".github/video.gif" alt="GIF" width="700px" />
+</p>
+
+---
+
+## 🔖 Layout 
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1120711251998877938). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+## Contatos
 
+<a href = "mailto: thaisonoliveira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" margin-right="10px"></a>
+<a href="https://www.linkedin.com/in/thaison-oliveira-68a263160" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://github.com/tysonOliveira" target="_blank"><img src="https://github.com/Alexandrehideki13/Alexandrehideki13/blob/main/GistGithub.jpeg" height=29 target="_blank"></a>
+
+---
+
+<p  align="center">Feito com ❤️ by Thaison Oliveira </p>
