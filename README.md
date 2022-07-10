@@ -52,4 +52,4 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ---
 
-<p  align="center">Feito com ❤️ by Thaison Oliveira </p>
+<p  align="center">Feito com ❤️ por Thaison Oliveira </p>

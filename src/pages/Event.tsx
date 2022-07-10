@@ -14,9 +14,6 @@ export function Event() {
     console.log(sidebar);
   }
 
-  var windowWidth = window.innerWidth;
-  console.log(windowWidth)
-
   return (
     <div className="flex flex-col min-h-screen">
       <Header handleShowSidebar={handleShowSidebar} />
@@ -24,7 +21,7 @@ export function Event() {
       <main className="flex flex-1">
         { slug ? <Video lessonSlug={slug} /> : <div className="flex-1" /> }
 
-        
+      
         { sidebar &&  <Sidebar />}
       </main>
     </div>

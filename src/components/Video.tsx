@@ -105,7 +105,7 @@ export function Video(props: VideoProps) {
           
         </div>
       </div>
-
+        
       <div className=" bg-black w-full h-20 flex items-center justify-between px-5 text-gray-300 md:flex-col md:h-32 md:justify-around md:text-center">
         
         <div className="flex items-center gap-6 md:flex-col md:gap-4">
